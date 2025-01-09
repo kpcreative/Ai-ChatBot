@@ -11,7 +11,7 @@ submit.addEventListener("click",(e)=>{
     //ham chate hai ki jise ye ho jaye na to jo v input pe value hai vo emoty ho jaye
     prompt.value="";
 })
-const apiurl="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDB18NZt6RxYN7KLOIVACHzW_Z8YxFJdB8";
+const apiurl="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="";
 //let object bna lo 
 //as user mssg ya image hi bhejega na
 //isliye asani ho isliye direct yha object hi bna liya
