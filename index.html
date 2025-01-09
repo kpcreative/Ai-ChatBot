@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai chat bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="chat-container">
+<!-- ab isme ek ai chat and ek user hga isliye vo bna lenge par avi uska layout bna lete hai -->
+ <!-- <div class="user-chatbox">
+    iske andar ek image hga user ka and ek jo area hga jha prompt ayega ki apbe kya bheja hau
+     <img src="/image/user.png" alt="" id="user-image" width="50">
+     <div class="user-chat-area">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores reiciendis suscipit quos omnis deleniti consectetur dignissimos, ipsum veritatis sapiente reprehenderit. Eligendi dolores voluptatibus distinctio error, fugiat veritatis optio deserunt.
+     </div>
+  
+
+ </div>    as hamne javascript me handle kr rkha hai dynamically so not needed now-->
+ <div class="ai-chatbox">
+    <img src="/image/ai.png" alt="" id="ai-image" width="10%">
+      <div class="ai-chat-area">
+Hello,How Can I Help You??
+        <!-- ham kehte hai ki agr thda der hua to ye loading wala dikha dena -->
+         <!-- <img src="loading.webp" alt="" width="50px" class="load"> -->
+      </div>
+ </div>
+    </div>
+
+    <div class="prompt-area">
+<input type="text" id="prompt" placeholder="Message..">
+<button id="img">
+    <img src="img.svg" alt="" id="image">
+</i>
+<input type="file" hidden accept="images/*">
+</button>
+<button id="sub"><i class="ri-upload-line"></i></button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
